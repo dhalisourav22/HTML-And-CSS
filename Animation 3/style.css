@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(rgb(212, 11, 226), rgb(224, 40, 111));
+    background-repeat: no-repeat;
+    background-size: 1366px 750px;
+}
+
+.wrapper {
+    width: 600px;
+    height: 60px;
+    background-color: violet;
+    position: relative;
+    animation-name: first;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /*animation-direction: reverse;*/
+    text-align: justify;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+@keyframes first {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 745px;
+    }
+}

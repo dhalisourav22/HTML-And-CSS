@@ -1,0 +1,15 @@
+p {
+    font-family: my-solaimanLipi;
+    border: 2px solid red;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: justify;
+    padding: 10px 20px;
+}
+
+html {
+    background: linear-gradient(blue, rgb(135, 135, 170));
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}

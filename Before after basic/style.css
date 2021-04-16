@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 300px 400px;
+}
+p:before {
+  content: " Sourav ";
+}
+p:after {
+  content: " Dhhali";
+}
+#box1 {
+  text-align: justify;
+  padding: 50px;
+  margin: 300px auto;
+  width: 300px;
+  height: 300px;
+  background-color: red;
+}
+#box1::before {
+  content: "Sourav ";
+}
+#box1:after {
+  content: " Dhali";
+}
+#box1:hover {
+  box-shadow: 4px 4px 8px black;
+}

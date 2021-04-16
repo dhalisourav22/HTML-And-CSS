@@ -1,0 +1,9 @@
+p{
+    color: black;
+    background-image: url(img/flower.jpg);
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 1332px 954px;
+}

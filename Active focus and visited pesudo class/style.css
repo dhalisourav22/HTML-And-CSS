@@ -1,0 +1,27 @@
+#pesudo {
+  list-style-type: none;
+  margin: 10% auto;
+}
+#pesudo li a {
+  display: inline-block;
+  margin: 1px;
+  padding: 15px 10px;
+  border-radius: 6px;
+  color: white;
+  background: rgb(10, 138, 10);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+#pesudo li a:hover {
+  background: rgb(128, 190, 34);
+}
+#pesudo li a:active {
+  background: rgb(255, 8, 8);
+  transition: none;
+}
+#pesudo li a:focus {
+  background: brown;
+}
+#pesudo li a:visited {
+  background: rgb(5, 85, 5);
+}

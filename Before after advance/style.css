@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.button {
+  display: inline-block;
+  text-decoration: none;
+  margin: 350px;
+}
+.Content {
+  background-color: rgb(122, 115, 115);
+  padding: 7px 15px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  display: inline-block;
+}
+.Content:hover {
+  color: antiquewhite;
+  background: none;
+  z-index: 5;
+}
+.Content:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: blue;
+  top: 0;
+  left: -50%;
+  transition: all 0.5s ease;
+  z-index: -1;
+}
+.button:hover .Content:before {
+  left: 0;
+}
+.Content:after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: blue;
+  top: 0;
+  right: -50%;
+  transition: all 0.5s ease;
+  z-index: -1;
+}
+.button:hover .Content:after {
+  right: 0;
+}

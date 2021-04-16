@@ -1,0 +1,31 @@
+p{
+    font-weight: bold; color : rgb(155, 192, 212);
+    line-height: 10px;
+}
+.first{
+    font-size: 300%;
+    font-style: italic;
+    color:black;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+.second{
+    /*font-family: tahoma;
+    font-variant: small-caps;
+    font-size: 28px;
+    font-weight: bolder;
+    line-height: 20px;
+    font-style: italic;*/
+    font: italic small-caps bold 28px/20px tahoma;
+    text-decoration: overline;
+    
+    
+
+}
+#fu10{
+    font-size: 2em;
+    text-transform: lowercase;
+    font-family: Courier;
+    color:#7321b9;
+    text-decoration: underline;
+}

@@ -1,0 +1,17 @@
+.wrapper{
+    width: 200px;
+    height: 200px;
+    background-color: steelblue;
+    animation-name: first;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+}
+@keyframes first{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: springgreen;
+        border-radius: 50%;
+    }
+}

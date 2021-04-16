@@ -1,0 +1,15 @@
+.first{
+    border: 2px solid red;
+    border-radius: 15px;
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 1s ease;
+    padding: 8px;
+}
+.first:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}

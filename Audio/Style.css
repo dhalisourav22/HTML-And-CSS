@@ -1,0 +1,8 @@
+audio{
+    width: 1200px;
+    background: red;
+    background-color: rgb(156, 23, 218);
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding : 10px;
+}

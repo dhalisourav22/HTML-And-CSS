@@ -1,0 +1,32 @@
+div.wrapper{
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    animation-name: sourav;
+    animation-duration: 5s;
+    animation-iteration-count: 6;
+    animation-delay: 2s;
+}
+@keyframes sourav{
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: tomato;
+    }
+    50%{
+        background-color: rgb(110, 228, 64);
+        height: 500px;
+        width: 500px;
+    }
+    75%{
+        background-color: rgb(198, 23, 214);
+        height: 200px;
+        width: 200px;
+    }
+    100%{
+        background-color: rgb(240, 161, 16);
+        height: 500px;
+        width: 500px;
+    }
+}

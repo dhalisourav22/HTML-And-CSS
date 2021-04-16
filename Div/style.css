@@ -1,0 +1,11 @@
+.first{
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    background-image: url(1.jpg);
+    background-size: cover;
+    color: white;
+}
+body{
+    background-color: rgb(216, 80, 209);
+}

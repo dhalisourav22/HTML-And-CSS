@@ -1,0 +1,12 @@
+p{
+    color: red;
+}
+.color1{
+    color: seagreen;
+}
+.bold{
+    font-weight: 900;
+}
+#color2{
+    color: rgb(236, 17, 218);
+}
