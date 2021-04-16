@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: arial;
+  transition: all 0.3s ese;
+  -webkit-transition: all 0.3s ese;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.floatleft {
+  float: left;
+}
+.floatright {
+  float: right;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: blueviolet;
+}
+a:visited {
+  color: blueviolet;
+}
