@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: o;
+}
+body {
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgb(226, 168, 218)
+  );
+  margin: 5px auto;
+}
+#wrapper {
+  width: 960px;
+  margin: 10px auto;
+}
+.main_wrapper {
+  width: 100%;
+}
+.middle {
+  width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+.header_bg {
+  background: linear-gradient(to left, rgb(191, 196, 214), rgb(211, 163, 199));
+  border-bottom: 2px solid black;
+  border-top: 5px solid black;
+}
+#header {
+  padding: 10px 30px;
+  color: beige;
+  font-family: arial;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#header p {
+  padding-top: 10px;
+  font-size: small;
+}
+.nav_bg {
+  background: white;
+  border-bottom: 2px solid black;
+}
+#nav ul {
+  padding: 0;
+  list-style-type: none;
+  height: 38.2px;
+  z-index: 99999;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+#nav ul li {
+  width: 158px;
+  float: left;
+  border-right: 1px solid black;
+  border-left: 1px solid rgb(119, 105, 105);
+  position: relative;
+}
+#nav ul li:last-child {
+  border-right: none;
+}
+#nav ul li:first-child {
+  border-left: none;
+}
+#nav ul li a {
+  background-color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 25px;
+  transition: 0.2s all ease;
+}
+#nav ul li a:hover {
+  background: rgb(183, 36, 228);
+  color: bisque;
+}
+
+#nav ul li ul {
+  list-style-type: none;
+  position: absolute;
+  left: -999999999px;
+}
+#nav ul li ul li {
+  float: none;
+  border-right: none;
+  border-left: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid rgb(119, 105, 105);
+  width: 250px;
+}
+
+#nav ul li:hover ul {
+  left: 0;
+}
+.section_bg {
+  background: linear-gradient(to bottom, rgb(26, 26, 27), rgb(88, 77, 86));
+}
+#section img {
+  width: 960px;
+  height: 450px;
+  vertical-align: middle;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+.content_bg {
+  background: linear-gradient(to left, rgb(213, 213, 224), rgb(224, 197, 218));
+  border-top: 1px solid black;
+}
+#content_wrapper {
+  overflow: hidden;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+#article {
+  width: 600px;
+  text-align: justify;
+  padding: 10px;
+  float: left;
+}
+#article h2 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+#article p {
+  margin: 15px 0;
+}
+#article img {
+  width: 400px;
+  height: auto;
+}
+#img_article {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+#for_border {
+  margin-top: 15px;
+}
+#img_article img {
+  width: 100px;
+  height: 175px;
+  float: left;
+  padding: 4px;
+  margin-right: 10px;
+  margin-top: 18px;
+  border: 2px solid rgb(129, 120, 120);
+  background: rgb(196, 162, 204);
+}
+#article figure {
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+  padding: 5px;
+  background: rgb(196, 162, 204);
+}
+#article figcaption {
+  font-weight: bold;
+  text-align: center;
+  font-family: arial;
+}
+#aside {
+  width: 318px;
+  padding: 10px;
+  float: left;
+}
+#aside ul {
+  list-style-type: none;
+}
+#aside h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+#aside ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+#aside ul li:last-child {
+  border-bottom: none;
+}
+#aside ul li a {
+  text-decoration: none;
+  transition: 0.3s all ease;
+  padding: 5px;
+  display: block;
+}
+#aside ul li a:hover {
+  color: rgb(183, 36, 228);
+}
+#aside_list {
+  margin-bottom: 50px;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+}
+#aside_list:last-child {
+  margin-bottom: 20px;
+}
+.footer_bg {
+  background: rgb(23, 12, 54);
+}
+#footer {
+  text-align: center;
+  padding: 10px;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+#footer p {
+  color: white;
+}
+#article blockquote {
+  background-color: rgb(172, 151, 151);
+  margin-left: 50px;
+  padding: 5px 25px;
+  border-left: 3px solid black;
+}
+#social {
+  list-style-type: none;
+  border: 1px solid red;
+  padding: 12px;
+  margin: 10px;
+  display: inline-block;
+  background: rgb(175, 166, 160);
+  position: fixed;
+  right: 0;
+  top: 30%;
+  margin-right: 0;
+  border-radius: 20px 6px 6px 20px;
+  z-index: 99;
+}
+#social li {
+  display: ;
+}
+#social li a img {
+  height: 35px;
+  width: 35px;
+}
