@@ -1,0 +1,26 @@
+ul#menu {
+    padding: 0px;
+}
+
+ul#menu li {
+    float: left;
+    list-style-type: none;
+    border-right: 1px solid red;
+    border-bottom: 3px solid rgb(236, 86, 41);
+}
+
+ul#menu li:last-child {
+    border-right: none;
+}
+
+ul#menu li a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    display: block;
+}
+
+ul#menu li a:hover {
+    background: rgb(238, 133, 34);
+}

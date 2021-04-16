@@ -1,0 +1,35 @@
+ul#menu {
+    padding: 0;
+    list-style-type: none;
+    width: 960px;
+    background-color: rgb(66, 61, 75);
+    min-height: 38.1px;
+    border-bottom: 2px solid tomato;
+    margin: 0 auto;
+}
+
+ul#menu li {
+    float: left;
+    border-right: 1px solid rgb(0, 0, 0);
+    border-left:1px solid rgb(108, 105, 116);    
+}
+
+ul#menu li:last-child {
+    border-right: none;
+}
+ul#menu li:first-child{
+    border-left: none;
+}
+
+ul#menu li a {
+    background-color: rgb(66, 61, 75);
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: block;
+    transition: 0.2s all ease;
+}
+
+ul#menu li a:hover {
+    background-color: tomato;
+}

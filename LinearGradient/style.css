@@ -1,0 +1,20 @@
+.first {
+    background: blue;
+    width: 600px;
+    height: 250px;
+    transition: all;
+    overflow: scroll;
+    text-align: justify;
+}
+
+.first:hover {
+    background: linear-gradient(to top, red, blue, yellow, green);
+    background: -webkit-linear-gradient(to top, red, blue, yellow, green);
+    background: -moz-linear-gradient(to top, red, blue, yellow, green);
+    background: -o-linear-gradient(to top, red, blue, yellow, green);
+    cursor: pointer;
+}
+
+body {
+    background: salmon;
+}

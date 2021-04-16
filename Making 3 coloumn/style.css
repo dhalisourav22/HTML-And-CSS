@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 20px auto;
+}
+.box{
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+}
+.margins{
+    margin-right: 0px ;
+}
+.box img{
+    width: 300px;
+    height: 200px;
+}
+.box p{
+    text-align: justify;
+}
+.box h2{
+    color: darkred;
+}
+.box a{
+    text-decoration: none;
+    background-color: darkorange;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+.box a:hover{
+    background: black;
+    color: white;
+    font-weight: bolder;
+}
+body{
+    background: rgb(189, 150, 150);
+}

@@ -1,0 +1,23 @@
+*{margin:0;padding:0}
+.first{
+    height: 500px;
+    width: 500px;
+
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+.second{
+    height: 500px;
+    width: 500px;
+    background-image: url(nature1.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    margin: 20px 50px 100px 200px;
+    padding: 100px 200px;
+}

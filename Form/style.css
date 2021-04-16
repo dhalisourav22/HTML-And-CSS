@@ -1,0 +1,39 @@
+body {
+    background-color: aqua;
+}
+
+input[type=text] {
+    width: 150px;
+    height: 40px;
+    color: rgb(67, 6, 102);
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    background-color: rgb(141, 241, 84);
+}
+
+label {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+textarea {
+    margin: 0px;
+    width: 693px;
+    height: 136px;
+    color: darkmagenta;
+    background-color: rgb(141, 241, 84);
+}
+
+input[type=submit] {
+    width: 68px;
+    height: 30px;
+    color: #9c0808;
+    border-radius: 10px;
+}
+
+input[type=reset] {
+    width: 68px;
+    height: 30px;
+    color: #9c0808;
+    border-radius: 10px;
+}
