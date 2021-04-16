@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  width: 960px;
+  margin: 5px auto;
+}
+#sticker {
+  background: blue;
+  padding: 15px;
+  border-radius: 10px;
+}
+.stick {
+  margin-top: 10px;
+  position: fixed;
+  top: 0px;
+  width: 930px;
+  z-index: 999999999999;
+}
+a {
+  text-decoration: none;
+}
+.edite {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+a {
+  padding: 8px;
+  background: rgb(64, 129, 214);
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+a:hover {
+  background: rgb(82, 82, 211);
+  color: rgb(206, 158, 199);
+}
