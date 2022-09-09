@@ -1,0 +1,72 @@
+.main-container{
+    border: 1px solid black;  
+    display: flex;    /*thats make the items into inline element not a block level element */
+    height: 60vh;
+
+
+    /* how the flex will be -------- */
+
+    /* flex-direction: column; */
+    /* flex-direction: row;   */            /*by default*/
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+
+    /* for horizontali setup --------*/
+
+    justify-content: center;          /*make all item position in center, which we do before by float*/
+    /* justify-content: flex-start;*/      /*default*/
+    /* justify-content: flex-end;*/
+    /* justify-content: space-between; */  /*Equal space take between the items*/
+    /* justify-content: space-evenly; */   /*Equal space take both side of the item, means between the item and the same sapce will be cover in both of sides*/
+    /* justify-content: space-around; */   /*Equal space take both side of the items*/
+
+
+    /* for verticali setup --------*/
+
+    /* align-items: center; */
+    /* align-items: flex-start; */         /*By default*/
+    /* align-items: flex-end; */
+
+
+    /* for responsive we generaly use flex-wrap in where we use display: flex; */
+
+    /* flex-wrap: wrap;*/  /* if screen get small then the items are go down one by one */
+    /* flex-wrap: wrap-reverse;*/  /* Wrap in oposite order. means the item 4 take place first when we decresse the size of the screen.(But the alingment of content gose down by default to use this, menas flex-end) */
+
+
+    /* flex-flow this will take two parameter first one is flex-direction and another one is flex-wrap. */
+    
+    /* flex-flow: row wrap; */
+
+}   
+.under-main-container{
+    background-color: brown;
+    border: 1px solid black;
+    margin: 2vh;
+    width: 150px;
+    height: 150px;
+    color: aliceblue;
+    font-size: 5vh;
+    /*text-align: center;*/  /*Make horizontali center(Makes item or thex under this folowing div is horizontaly center)*/
+    
+    
+    /*Use those below three lines of code to make thing center by every horizontal and vertical position. or any other by flex-start or flex-end*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-1{
+    
+    order: 5;        /*This is litle bit z index type, default order is 1, which order is big, that item will be place in the last, this is type of a roll number.*/
+
+    /* flex-grow: 3;*/    /* Default value of this is 1(This is litle bit z index type). Menas this item will take full space of display which is free. if we use flex-grow on another item then it will thake the Proportional space as we say */
+
+    /* flex-shrink: 2;*/  /* Default value of this is 1(This is litle bit z index type). Means this item reduce its size when we decrese the size of screen.(this only work when we do not use flex-wrap) */
+
+}
+
+.item-4{
+    flex-shrink: 5;      /* this only work when we do not use flex-wrap */
+    
+}
