@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+.container{
+    /* height: 90vh; */
+    background-color: brown;       /*For check*/
+    display: grid;                   /*If we dont set any template then its come one by one in a column or verticaly(where flex shows it in horizontaly)*/
+
+    /* Specificly giving the box size. That we create 3 coloumns which both with is 150px and we also create rows which has 150px height. we can specify this by puting any px size in there.  */
+    /* if we use fr as a unit, then it's take the proper size of the grid container  */
+
+    /* grid-template-columns: 150px 150px 150px; */
+    grid-template-rows: 100px 1fr 60px;
+
+    /* grid-template-columns: repeat(3,150px); */        /*that means also "150px 150px 150px;" this */
+    /* grid-template-rows: repeat(3,150px); */
+
+    grid-template-columns: repeat(3,1fr);                /*Means three portion are created which in combine take tha full siz of the display screen, which are equal*/
+    /* grid-template-rows: repeat(3,1fr);*/              /*That also means 1fr 1fr 1fr;*/
+
+     
+    /* row-gap: 10px;
+    column-gap: 10px; */
+
+
+    /*(justify horizontaly)That makes grid items(Direct child of grid, means those div which are under the grid) placed into the center, start or end. means justify.*/
+
+    /* justify-items: center;*/
+    /* justify-items: end; */
+    /* justify-items: start; */
+    /*We can make any single specific items direction by using justify-self: ; css into that specific class means on the item, not the container.[On container we only use justify-items css and that applys on all the child or items under the container, but justify-self is used to justify any specific item, thats why we used it on any specific item.]*/
+
+
+    /*(justify vertically)That makes grid items(Direct child of grid, means those div which are under the grid) placed into the center, start or end. means justify.*/
+
+    /* align-items: center; */
+    /*We can make any single specific items direction by using align-self: ; css into that specific class means on the item, not the container.[On container we only use align-items css and that applys on all the child or items under the container, but align-self is used to justify any specific item, thats why we used it on any specific item.]*/
+
+
+    /* justify all items both horizontaly and verticaly */
+    /* place-items: center; */
+}
+.items{
+    /* height: 120px;
+    width: 120px; */
+    background-color: rgb(154, 162, 209);
+    text-align: justify;
+    padding: 2vh;
+
+}
+.item1{
+     /*We now have 3 column(But ultimately the line we have in column is 4) and 3 row(where also we have 4 lines.)*/
+    grid-column-start: 1;            /*We tell that, our first div means the class with item 1 take columns number menas line number 1 to 4*/
+    grid-column-end: 4;
+
+    /*If we want use column to marge inspite of line numbner then we can use grid-column or grid-rows*/
+    grid-column: 1 /span 3;          /*Means start from 1 and end in 3 coloumn which bear the same meaning of 37&38 lines*/
+
+    /* we can also set the height of this first div to customized , this hight will be give under the main container, by grid-template-rows: Hight(which we customized) 1fr 1fr; (the space of first row means the hight of the first div)  */
+
+    background-color: black;       /*Set a background color*/
+    color: aliceblue;
+
+    /* content placed in center  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 4.5vh;
+    
+
+}
+.item5{
+    /*We now have 3 column(But ultimately the line we have in column is 4) and 3 row(where also we have 4 lines.)*/
+   grid-column-start: 1;            /*We tell that, our first div means the class with item 1 take columns number menas line number 1 to 4*/
+   grid-column-end: 4;
+
+   /* we can also set the height of this first div to customized , this hight will be give under the main container, by grid-template-rows: Hight(which we customized) 1fr 1fr; (the space of first row means the hight of the first div)  */
+
+
+   background-color: black;      /*Set a background color*/
+   color: aliceblue;
+
+   /* content placed in center */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   font-size: 4.5vh;
+   
+    /* justify-self: start;*/       /*(justify horizontaly)Means all content or items has same justify but the item 5 has different and it is start means left*/
+
+    /* align-self: center; */       /*(justify verticaly) */
+
+    /* place-self: center; */       /*Thats make horizontaly and verticaly center both types of justify.*/
+}
+.item3{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+ 
+    /* we can set width and height of those specific items, This height and width change the div size that may be overflow from grid layout(what we set by grid--template-columns and rows.) the layout remain unchanged.*/
+}
